@@ -16,17 +16,7 @@ Tech Stack
 - Joblib
 - Streamlit
 
-## How to Run
-
-### Mac / Linux
-```bash
-./run.sh
-
-## Windows (PowerShell)
-bash run.sh
-
-If you prefer, you can also manually activate the virtual environment on Windows:
-
-.venv\Scripts\activate
-pip install -r requirements.txt
-python -m streamlit run app/web_app.py
+# How to run on Windows
+1. Clone the repo
+2. Open PowerShell in the project folder
+3. Run: .\run.ps1
