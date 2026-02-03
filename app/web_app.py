@@ -32,6 +32,7 @@ if st.button("Recommend"):
     if recommendations:
         st.subheader("You may also like:")
         cols = st.columns(3)  
+        
         for i, rec in enumerate(recommendations):
             with cols[i % 3]:
                 st.write(f"🎬 {rec}")
