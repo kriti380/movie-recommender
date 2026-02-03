@@ -11,8 +11,5 @@ echo "Installing dependencies..."
 pip install --upgrade pip
 pip install -r requirements.txt
 
-echo "Training model..."
-python3 app/train.py
-
 echo "Launching Streamlit UI..."
 streamlit run app/main.py
